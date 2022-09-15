@@ -1,7 +1,7 @@
 public class Main {
-
+    // Created by Daniel Salib on 9/14/2022
     //Below is a declared constant
-    public static final int SIZE = 7;
+    public static final int SIZE = 10;
 
     //this is the main where all the module calls are placed
     public static void main(String[] args) {
