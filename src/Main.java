@@ -47,14 +47,14 @@ public class Main {
         }
     }
 
-    //The function below also contains a for loop that prints slashes which point down (increase iteration)
+    //The function below also contains a for loop that prints slashes pointing down (increase iteration)
     public static void slash2(int j, String print){
         for (int i = 1; i <= j; i++) {
             System.out.print(print);
         }
     }
 
-    //The function below prints the top of the rocket
+    //The function below prints the upper half of the rocket
     public static void triangle() {
         for (int j = 1; j <= (SIZE * 2) - 1; j++) {
             for (int m = 1; m <= (SIZE * 2) - j; m++) {
@@ -67,7 +67,7 @@ public class Main {
         }
     }
 
-    //The function below prints out the mid-section that is used between sections of the rockets
+    //The function below prints out the mid-section that is used between areas the rockets
     public static void middle() {
         System.out.print("+");
         for(int n=1; n<= SIZE*2; n++) {
@@ -77,7 +77,7 @@ public class Main {
     }
 
 
-    //The function below prints the top and bottom of the rocket
+    //The function below prints the upper and lower halves of the rocket
     public static void diamonds2(){
         for(int p=1; p<= SIZE; p++) {
             System.out.print("|");
@@ -93,7 +93,7 @@ public class Main {
         }
     }
 
-    //The function below prints out the middle boxes of the rocket
+    //The function below prints out the middle diamond shapes of the rocket
     public static void diamonds1(){
         for(int t=1; t<= SIZE; t++){
             System.out.print("|");
